@@ -67,7 +67,7 @@
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(208, 23);
             this.resetButton.TabIndex = 0;
-            this.resetButton.Text = "Resetuj";
+            this.resetButton.Text = "Reset";
             this.resetButton.UseVisualStyleBackColor = true;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
             // 
@@ -90,7 +90,7 @@
             this.relationButton.Name = "relationButton";
             this.relationButton.Size = new System.Drawing.Size(208, 50);
             this.relationButton.TabIndex = 3;
-            this.relationButton.Text = "Dodaj relacje";
+            this.relationButton.Text = "Add perpendicularity";
             this.relationButton.UseVisualStyleBackColor = true;
             this.relationButton.Click += new System.EventHandler(this.relationButton_Click);
             // 
@@ -100,7 +100,7 @@
             this.deletionButton.Name = "deletionButton";
             this.deletionButton.Size = new System.Drawing.Size(208, 50);
             this.deletionButton.TabIndex = 2;
-            this.deletionButton.Text = "Usuwanie";
+            this.deletionButton.Text = "Deleting";
             this.deletionButton.UseVisualStyleBackColor = true;
             this.deletionButton.Click += new System.EventHandler(this.deletionButton_Click);
             // 
@@ -110,7 +110,7 @@
             this.manipulationButton.Name = "manipulationButton";
             this.manipulationButton.Size = new System.Drawing.Size(208, 50);
             this.manipulationButton.TabIndex = 1;
-            this.manipulationButton.Text = "Manipulowanie";
+            this.manipulationButton.Text = "Manipulating";
             this.manipulationButton.UseVisualStyleBackColor = true;
             this.manipulationButton.Click += new System.EventHandler(this.manipulationButton_Click);
             // 
@@ -121,7 +121,7 @@
             this.drawingButton.Name = "drawingButton";
             this.drawingButton.Size = new System.Drawing.Size(208, 50);
             this.drawingButton.TabIndex = 0;
-            this.drawingButton.Text = "Rysowanie";
+            this.drawingButton.Text = "Drawing";
             this.drawingButton.UseVisualStyleBackColor = false;
             this.drawingButton.Click += new System.EventHandler(this.drawingButton_Click);
             // 
@@ -134,17 +134,17 @@
             this.groupBox1.Size = new System.Drawing.Size(214, 76);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Algorytm rysowania";
+            this.groupBox1.Text = "Drawing algorithm";
             // 
             // BresenhamButton
             // 
             this.BresenhamButton.AutoSize = true;
             this.BresenhamButton.Location = new System.Drawing.Point(19, 47);
             this.BresenhamButton.Name = "BresenhamButton";
-            this.BresenhamButton.Size = new System.Drawing.Size(143, 19);
+            this.BresenhamButton.Size = new System.Drawing.Size(139, 19);
             this.BresenhamButton.TabIndex = 1;
             this.BresenhamButton.TabStop = true;
-            this.BresenhamButton.Text = "Algorytm Bresenhama";
+            this.BresenhamButton.Text = "Bresenham algorithm";
             this.BresenhamButton.UseVisualStyleBackColor = true;
             this.BresenhamButton.CheckedChanged += new System.EventHandler(this.BresenhamButton_CheckedChanged);
             // 
@@ -153,10 +153,10 @@
             this.GDIPlusButton.AutoSize = true;
             this.GDIPlusButton.Location = new System.Drawing.Point(19, 22);
             this.GDIPlusButton.Name = "GDIPlusButton";
-            this.GDIPlusButton.Size = new System.Drawing.Size(189, 19);
+            this.GDIPlusButton.Size = new System.Drawing.Size(115, 19);
             this.GDIPlusButton.TabIndex = 0;
             this.GDIPlusButton.TabStop = true;
-            this.GDIPlusButton.Text = "Algorytm biblioteczny GDI Plus";
+            this.GDIPlusButton.Text = "GDI Plus drawing";
             this.GDIPlusButton.UseVisualStyleBackColor = true;
             this.GDIPlusButton.CheckedChanged += new System.EventHandler(this.GDIPlusButton_CheckedChanged);
             // 
@@ -167,7 +167,7 @@
             this.ustalDługośćKrawędziToolStripMenuItem,
             this.krzywaBezieraToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(228, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(228, 70);
             // 
             // utwórzWierzchołekWŚrodkuToolStripMenuItem
             // 

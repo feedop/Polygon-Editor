@@ -12,6 +12,8 @@ namespace GK_CAD
         // Initialize the scene with two preset polygons
         public static void SetScene(List<Polygon> polygons, RelationManager relationManager, Font font)
         {
+            // Sorry, some spaghetti code down here. Requires refactorization.
+
             Vertex[][] vertices = new Vertex[2][];
             vertices[0] = new Vertex[7];
             vertices[1] = new Vertex[8];

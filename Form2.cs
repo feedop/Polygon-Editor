@@ -46,11 +46,16 @@ namespace GK_CAD
 
         private void DisplayError()
         {
-            string message = "Niepoprawna wartość";
-            string caption = "Błąd";
+            string message = "Incorrect value";
+            string caption = "Error";
 
             // Display error
             MessageBox.Show(message, caption, MessageBoxButtons.OK);
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
